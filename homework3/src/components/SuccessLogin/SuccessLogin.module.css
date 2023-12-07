@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40vh;
+    min-height: 40vh;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(39, 163, 103);
+    box-shadow: 2px 2px 35px rgba(82, 248, 168, 0.561);
+    margin: 30px;
+}
+
+.successLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+

@@ -1,0 +1,32 @@
+.failedLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputCol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    min-width: 30vh;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40vh;
+    min-height: 40vh;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(160, 57, 37);
+    box-shadow: 2px 2px 35px rgba(225, 64, 5, 0.595);
+    margin: 30px;
+}
