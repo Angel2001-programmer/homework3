@@ -14,7 +14,7 @@ const Login = () => {
         password: "pass123"};
 
     //email pattern to check if email input has @ and company.com in the email address.
-    const regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
+    const regex = new RegExp('[a-z0-9]+@[a-z]+.[a-z]{2,3}');
     const onChangeInput = (e) => {
         setUserData(null);
         //copy current array and add new objects to it.
