@@ -30,3 +30,10 @@
     box-shadow: 2px 2px 35px rgba(0, 128, 170, 0.998);
     margin: 30px;
 }
+
+.errorMessage{
+    color: rgb(163, 5, 5);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
