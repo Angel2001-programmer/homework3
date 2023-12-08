@@ -2,7 +2,7 @@ import styles from "./SuccessLogin.module.css";
 import Button from "../../UI/Button/button";
 import { Link } from "react-router-dom";
 
-const SuccessLogin = props => {
+const SuccessLogin = () => {
     return(
         <div className={styles.container}>
             <div className={styles.successLogin}>

@@ -2,7 +2,7 @@ import styles from "./Login.module.css";
 import Button from "../../UI/Button/button"
 import { useState, useContext } from "react";
 import { MContext } from "../../App";
-const Login = props => {
+const Login = () => {
     //Managing useState values.
     const [errorMessage, setErrorMessage] = useState();
     const [userData, setUserData] = useState({email: '', password: ''});
