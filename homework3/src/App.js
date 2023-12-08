@@ -13,6 +13,7 @@ function App() {
   console.log(isLogged);
 
   return (
+    //useContext wrap to ensure context is shared with all components wrapped.
     <MContext.Provider value={[isLogged, setisLogged]}>
     <div className="App">
     <header className="App-header">
